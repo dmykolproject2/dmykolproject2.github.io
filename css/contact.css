@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+
+body{
+  background: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  transition: color 600ms ease;
+  color: white;
+}
+
+img { max-width: 100%;}
+
+header {
+  width: 90%;
+  padding: 20px 5%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > a .logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+}
+
+header > .nav {
+position: relative;
+left: -50px;
+display: none;
+}
+
+.nav > a {
+  margin: 0 15px;
+  display: inline-block;
+  color: #a3a3a3;
+  font-size: 20px;
+}
+
+.nav > a:hover {
+  color: #4f4e4e;
+}
+
+.menu {
+cursor: pointer;
+color: #a3a3a3;
+font-size: 23px;
+}
+
+.menu:hover {transform: scale(1.1); transition: all 600ms ease}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.full-page {
+  height: 81vh;
+  background: url(../images/contact.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  background-blend-mode: multiply;
+  background-color: #707070;
+}
+
+#contact-us {
+  position: relative;
+  top: 100px;
+  left: 0px;
+  font-size: 25px;
+}
+
+.contact {
+  display: flex;
+  position: relative;
+  top: 250px;
+  left: 14%;
+}
+
+.contact > div {
+  margin-left: 10%;
+  font-size: 15px;
+}
+
+#address > p {padding-top: 30px;}
+#phone > p {padding-top: 30px;}
+#email > p {padding-top: 30px;}
+
+#address > i {font-size: 50px; color: #ffc107;}
+#phone > i {font-size: 50px; color: #ffc107;}
+#email > i {font-size: 50px; color: #ffc107;}
+
+
+footer {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer > p {
+  position: relative;
+  left: 40px;
+  top: 20px;
+  padding-bottom: 15px;
+  display: block;
+  font-size: 12px;
+}
